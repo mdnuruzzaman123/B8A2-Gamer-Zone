@@ -24,8 +24,15 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+.general-title{
+    color: #0B0223;
+    text-align:center;
+    font-size: 3rem;
+    font-weight: 700;
+}
 
-/* nav styles */
+
+/* nav section styles */
 
 nav{
     padding:0px 240px;
@@ -81,7 +88,7 @@ nav{
     height: 24px;
 }
 
-/* banner styles */
+/* banner section styles */
 
 .banner{
     background-image: url(images/Group\ 14.png);
@@ -129,4 +136,53 @@ nav{
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+/* card section styles */
+
+.card-section{
+    margin-bottom: 120px;
+    background-color: #FFF;
+}
+.card-section-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.card-conteiner{
+    padding: 0px 240px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.card-caption{
+    margin-top: 24px;
+}
+.card{
+    width: 342px;
+    height: 400px;
+    position: absolute;
+    border-radius: 16px;
+    border: 1px solid turquoise;
+    background-image: url(images/4.png);
+    transform: translateY(-454px);
+}
+.card-img{
+    width: 48px;
+    height: 48px;
+    padding: 156px 146px 0px 148px;
+}
+.card-description{
+    color:#FF42A5 ;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 115px;
+    padding-top:16px ;
+    
 }
