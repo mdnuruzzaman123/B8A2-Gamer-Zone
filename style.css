@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* shared styles */
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-style{
+    color:#FF42A5;
+}
+.btn-primary{
+    border: none;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* nav styles */
+
+nav{
+    padding:0px 240px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);   
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+    color: #3C354F;
+    font-size: 1.13rem;
+    font-weight: 500;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-menu a:hover{
+    color:#FF42A5;
+}
+.menu-icon-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 8px ;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+}
+.nav-img1{
+    width: 34px;
+    height: 24px;
+}
+.nav-img2{
+    width: 24px;
+    height: 24px;
+}
+
+/* banner styles */
+
+.banner{
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+.banner-conteiner{
+    margin: 0 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 68px;
+}
+.banner-description-icon{
+    display: flex;
+    gap: 12px;
+    margin-bottom:17px ;
+}
+.banner-button-conteiner{
+    display: flex;
+    margin-top: 41px ;
+    gap:24px ;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-main-title{
+    font-size: 6rem;
+    font-weight: 800;
+    color: #F948B2;
+}
+.banner-description{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.banner-btn{
+    border: none;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
