@@ -24,13 +24,6 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-.general-title{
-    color: #0B0223;
-    text-align:center;
-    font-size: 3rem;
-    font-weight: 700;
-}
-
 
 /* nav section styles */
 
@@ -153,10 +146,11 @@ nav{
     margin-bottom: 48px;
 }
 .card-conteiner{
-    padding: 0px 240px;
-    display: flex;
+    /* padding: 0px 240px; */
+    margin: 0px 240px 120px 240px;
+    display:flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 16px;
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
@@ -164,9 +158,16 @@ nav{
 .card-caption{
     margin-top: 24px;
 }
+.general-title{
+    color: #0B0223;
+    text-align:center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .card{
-    width: 342px;
-    height: 400px;
+    width: auto;
+    height: auto;
     position: absolute;
     border-radius: 16px;
     border: 1px solid turquoise;
@@ -185,4 +186,43 @@ nav{
     padding-left: 115px;
     padding-top:16px ;
     
+}
+
+/* instant-playing section styles */
+
+.instant-playing-section{
+    margin: 0px 240px 195px 439px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 265px;
+}
+.instant-playng-content{
+    text-align: right;
+}
+.instant-playing-content-title{
+    width:341px ;
+    height:180px ;
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.instant-playing-content-description{
+    margin-top: 24px;
+    width: 353px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.instant-playing-content-img{
+    width: 634px;
+    height: 650px;
+    position: relative;
+}
+.content-img-style{
+    width: 318.5px;
+    height: 365.083px;
+    position: absolute;
+    bottom: -75px;
+    left:-145px ;
 }
