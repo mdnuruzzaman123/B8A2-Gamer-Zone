@@ -23,8 +23,15 @@
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
-
+.primary-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 /* nav section styles */
 
 nav{
@@ -36,20 +43,12 @@ nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);   
 }
-.nav-logo{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 2.8rem;
-    font-weight: 700;
-}
 .nav-menu ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     gap: 32px;
-    color: #3C354F;
     font-size: 1.13rem;
     font-weight: 500;
 }
@@ -129,6 +128,7 @@ nav{
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* card section styles */
@@ -146,14 +146,14 @@ nav{
     margin-bottom: 48px;
 }
 .card-conteiner{
-    /* padding: 0px 240px; */
     margin: 0px 240px 120px 240px;
     display:flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 17px;
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
+    position: relative;
 }
 .card-caption{
     margin-top: 24px;
@@ -164,15 +164,13 @@ nav{
     font-size: 3rem;
     font-weight: 700;
 }
-
 .card{
-    width: auto;
-    height: auto;
+    width: 342px;
+    height: 400px;
     position: absolute;
+    bottom:76px ;
     border-radius: 16px;
-    border: 1px solid turquoise;
-    background-image: url(images/4.png);
-    transform: translateY(-454px);
+    background-image:url(images/4.png);
 }
 .card-img{
     width: 48px;
@@ -195,7 +193,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 265px;
 }
 .instant-playng-content{
     text-align: right;
@@ -225,4 +222,115 @@ nav{
     position: absolute;
     bottom: -75px;
     left:-145px ;
+}
+
+/* online-playing section styles */
+
+
+/* multiple button section styles */
+
+.multiple-button-section{
+    background-color: rgba(255, 66, 165, 0.03);
+}
+.multiple-button-conteiner{
+    padding:120px 240px 0px 240px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.multiple-button-conteiner2{
+    padding:28px 377px 120px 325px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-conteiner{
+    border-radius: 50px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding:10px 20px 10px 10px ;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.button-conteiner img{
+    width: 60px;
+    height: 60px;
+}
+.button-conteiner:hover{
+    border:2px solid #FF42A5;
+    color:#FF42A5;;
+    cursor: pointer;
+}
+.button-conteiner .button:hover{
+    color:#FF42A5;
+    cursor: pointer;
+}
+
+/* footer section */
+
+.footer-section{
+    height: 636px;
+    background-color: #0B0223;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-logo{
+    margin: 126px auto 0px;
+    color: #FFF;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.12rem;
+    font-weight: 600;
+    list-style: none;
+    gap: 60px;
+    margin-top:56px ;
+}
+.footer-menu li a {
+    text-decoration: none;
+    color: #FFF;
+}
+.footer-menu li a:hover{
+    color:#FF42A5;
+}
+.social-link{
+    margin-top: 56px;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+.footer-tarm-condisions ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    margin-top:64px ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-tarm-condisions li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer-tarm-condisions li a:hover{
+    color:#FF42A5;
+}
+small{
+    display: flex;
+    justify-content: center;
+    margin-top:28px ;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
 }
