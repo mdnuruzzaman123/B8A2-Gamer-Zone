@@ -131,6 +131,49 @@ nav{
     cursor: pointer;
 }
 
+/* gamer-section styles */
+
+.section-gamer{
+    background-color: rgba(255, 66, 165, 0.03) ;
+}
+.gamer-section{
+    margin: 0px 240px 120px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+
+}
+.gamer-content{
+    text-align: right;
+}
+.gamer-title{
+    margin-top:95px ;
+    color: #F948B2;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.gamer-description{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+.g-d{
+    margin-top: 24px;
+    margin-bottom: 20px;
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.gamer-small-title{
+    color: #534C64;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 96px;
+}
+
 /* card section styles */
 
 .card-section{
@@ -224,8 +267,6 @@ nav{
     left:-145px ;
 }
 
-/* online-playing section styles */
-
 
 /* multiple button section styles */
 
@@ -246,7 +287,7 @@ nav{
 }
 .button-conteiner{
     border-radius: 50px;
-    background-color: #FFF;
+    background-color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -269,7 +310,7 @@ nav{
     color:#FF42A5;;
     cursor: pointer;
 }
-.button-conteiner .button:hover{
+.button:hover{
     color:#FF42A5;
     cursor: pointer;
 }
@@ -399,6 +440,27 @@ small{
         font-size: .8rem;
     }
     
+    /* gamer section */
+
+    .gamer-section{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .gamer-section img{
+        width: 90%;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .gamer-title{
+        font-size: 2rem;
+    }
+    .gamer-description{
+        font-size: .8rem;
+    }
+    .gamer-small-title{
+        font-size:1.25rem ;
+    }
     /* card section styles */
 
     .card-conteiner{
@@ -470,6 +532,7 @@ small{
         flex-wrap: wrap;
         align-content: center;
         align-items: center;
+        margin-bottom: 30px;
     }
 
     /* footer section styles */
