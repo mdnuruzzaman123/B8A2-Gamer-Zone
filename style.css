@@ -11,6 +11,10 @@
     padding: 0px;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .text-style{
     color:#FF42A5;
 }
